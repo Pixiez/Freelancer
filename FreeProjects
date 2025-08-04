@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Freelancer Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: wheat;
+      padding: 10px 20px;
+      flex-wrap: wrap;
+    }
+
+    .Logo img {
+      height: 50px;
+      width: auto;
+    }
+
+    .Nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .Nav div a {
+      padding: 8px 12px;
+      text-decoration: none;
+      color: red;
+      border-radius: 4px;
+      transition: color 0.3s ease;
+    }
+
+    .Nav div a:hover {
+      color: brown;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    footer {
+      background-color: indianred;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: blue;
+      padding: 1rem 2rem;
+    }
+
+    .foo1 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .foo2 a {
+      margin-left: 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .Nav {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+      }
+
+      .Nav div {
+        flex: 1 0 40%;
+        text-align: center;
+      }
+
+      footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+      }
+
+      .foo2 a {
+        display: inline-block;
+        margin: 0 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="Logo">
+      <img src="../Pictures/code-design.png" alt="logo">
+    </div>
+    <div class="Nav">
+      <div><a href="../Freelancersite/Freelancer.html">Home</a></div>
+      <div><a href="../Freelancersite/Freelancer.html">About</a></div>
+      <div><a href="../Freelancersite/Projects.html">Projects</a></div>
+      <div><a href="../Freelancersite/Contact.html">Contact</a></div>
+    </div>
+  </header>
+
+  <main>
+    <!-- İçeriğin buraya gelecek -->
+    <p style="font-size: 18px;">Welcome to the Projects page!</p>
+  </main>
+
+  <footer>
+    <div class="foo1">
+      <i class="fa fa-envelope" style="font-size: 20px"></i>
+      <p class="cal">emrsmz135@gmail.com</p>
+    </div>
+    <div class="foo2">
+      <a href="https://www.instagram.com/emr_smz/?next=%2F" class="fa fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/emir-sönmez-550069332" class="fa fa-linkedin"></a>
+      <a href="https://github.com/Pixiez" class="fa fa-github"></a>
+    </div>
+  </footer>
+
+</body>
+</html>
